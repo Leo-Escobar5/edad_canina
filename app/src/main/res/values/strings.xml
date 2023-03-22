@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Hellow World</string>
+    <string name="app_name" translatable="false">Edad Canina</string>
+    <string name="result_format">if you were a dog, you would be %d years old</string>
+    <string name="you_have_to_insert_an_age">You have to insert an age</string>
+    <string name="calculate">Calculate</string>
+    <string name="hor_old_are_you">Hor old are you?</string>
+    <string name="your_age">Your age</string>
+
 </resources>

@@ -8,24 +8,42 @@
     android:orientation="vertical">
 
 <ImageView
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:src="@drawable/perro_meme"
     android:adjustViewBounds="true"/>
 <TextView
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:textSize="16sp"
-    android:textColor="@color/black"
-    android:text="Hola Mundo"
+    android:textSize="20sp"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:text="@string/hor_old_are_you"
+    android:textColor="@color/white"
+
     />
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/age_edit"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mi edad"/>
+        android:padding="16dp"
+        android:inputType="number"
+        android:hint="@string/your_age"
+        />
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular"
+        android:layout_margin="16dp"
+        android:text="@string/calculate"
         />
 </LinearLayout>
